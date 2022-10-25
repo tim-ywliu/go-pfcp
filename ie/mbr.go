@@ -7,7 +7,7 @@ package ie
 import (
 	"io"
 
-	"github.com/wmnsk/go-pfcp/internal/utils"
+	"github.com/tim-ywliu/go-pfcp/internal/utils"
 )
 
 // NewMBR creates a new MBR IE.

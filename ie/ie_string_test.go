@@ -8,7 +8,7 @@ import (
 	"testing"
 
 	"github.com/google/go-cmp/cmp"
-	"github.com/wmnsk/go-pfcp/ie"
+	"github.com/tim-ywliu/go-pfcp/ie"
 )
 
 func TestStringIEs(t *testing.T) {

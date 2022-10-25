@@ -5,7 +5,7 @@
 package message
 
 import (
-	"github.com/wmnsk/go-pfcp/ie"
+	"github.com/tim-ywliu/go-pfcp/ie"
 )
 
 // SessionDeletionResponse is a SessionDeletionResponse formed PFCP Header and its IEs above.

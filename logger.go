@@ -7,7 +7,7 @@ package pfcp
 import (
 	"log"
 
-	"github.com/wmnsk/go-pfcp/internal/logger"
+	"github.com/tim-ywliu/go-pfcp/internal/logger"
 )
 
 // SetLogger replaces the standard logger with arbitrary *log.Logger.

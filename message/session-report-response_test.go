@@ -9,10 +9,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/wmnsk/go-pfcp/ie"
-	"github.com/wmnsk/go-pfcp/message"
+	"github.com/tim-ywliu/go-pfcp/ie"
+	"github.com/tim-ywliu/go-pfcp/message"
 
-	"github.com/wmnsk/go-pfcp/internal/testutil"
+	"github.com/tim-ywliu/go-pfcp/internal/testutil"
 )
 
 func TestSessionReportResponse(t *testing.T) {

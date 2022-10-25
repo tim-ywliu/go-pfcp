@@ -2,15 +2,15 @@
 
 PFCP implementation in Golang.
 
-![CI status](https://github.com/wmnsk/go-pfcp/actions/workflows/go.yml/badge.svg)
-[![GoDoc](https://godoc.org/github.com/wmnsk/go-pfcp?status.svg)](https://godoc.org/github.com/wmnsk/go-pfcp)
-[![License](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/wmnsk/go-pfcp/blob/master/LICENSE)
+![CI status](https://github.com/tim-ywliu/go-pfcp/actions/workflows/go.yml/badge.svg)
+[![GoDoc](https://godoc.org/github.com/tim-ywliu/go-pfcp?status.svg)](https://godoc.org/github.com/tim-ywliu/go-pfcp)
+[![License](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/tim-ywliu/go-pfcp/blob/master/LICENSE)
 
 ## What is PFCP?
 
 PFCP(Packet Forwarding Control Protocol) is a signaling protocol used in mobile networking infrastructure(LTE EPC, 5GC) to realize CUPS architecture(Control and User Plane Separation, not a printing system) defined in 3GPP TS29.244.
 
-Are you looking for a GTP implementation in Golang? [go-gtp](https://github.com/wmnsk/go-gtp) would be the right choice for you :P
+Are you looking for a GTP implementation in Golang? [go-gtp](https://github.com/tim-ywliu/go-gtp) would be the right choice for you :P
 
 ## Project Status
 
@@ -138,7 +138,7 @@ createPDR := ie.NewCreatePDR(
         ie.NewUEIPAddress(0x02, "127.0.0.1", "", 0),
         ie.NewTrafficEndpointID(0x01),
         ie.NewSDFFilter("aaaaaaaa", "bb", "cccc", "ddd", 0xffffffff),
-        ie.NewApplicationID("https://github.com/wmnsk/go-pfcp/"),
+        ie.NewApplicationID("https://github.com/tim-ywliu/go-pfcp/"),
         ie.NewEthernetPDUSessionInformation(0x01),
         ie.NewEthernetPacketFilter(
             ie.NewEthernetFilterID(0xffffffff),
@@ -490,10 +490,10 @@ IEs are (basically) implemented in conformance with TS29.244 V16.3.1(2020-04).
 
 ## Author(s)
 
-Yoshiyuki Kurauchi ([Website](https://wmnsk.com/) / [LinkedIn](https://www.linkedin.com/in/yoshiyuki-kurauchi/))
+Yoshiyuki Kurauchi ([Website](https://tim-ywliu.com/) / [LinkedIn](https://www.linkedin.com/in/yoshiyuki-kurauchi/))
 
 _I'm always open to welcome co-authors! Please feel free to talk to me._
 
 ## LICENSE
 
-[MIT](https://github.com/wmnsk/go-pfcp/blob/master/LICENSE)
+[MIT](https://github.com/tim-ywliu/go-pfcp/blob/master/LICENSE)

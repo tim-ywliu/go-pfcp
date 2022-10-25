@@ -8,7 +8,7 @@ import (
 	"testing"
 
 	"github.com/google/go-cmp/cmp"
-	"github.com/wmnsk/go-pfcp/internal/utils"
+	"github.com/tim-ywliu/go-pfcp/internal/utils"
 )
 
 func TestBCDEncoding(t *testing.T) {

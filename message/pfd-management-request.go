@@ -5,7 +5,7 @@
 package message
 
 import (
-	"github.com/wmnsk/go-pfcp/ie"
+	"github.com/tim-ywliu/go-pfcp/ie"
 )
 
 // PFDManagementRequest is a PFDManagementRequest formed PFCP Header and its IEs above.

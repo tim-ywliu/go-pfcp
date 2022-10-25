@@ -8,8 +8,8 @@ import (
 	"encoding/binary"
 	"io"
 
-	"github.com/wmnsk/go-pfcp/internal/logger"
-	"github.com/wmnsk/go-pfcp/internal/utils"
+	"github.com/tim-ywliu/go-pfcp/internal/logger"
+	"github.com/tim-ywliu/go-pfcp/internal/utils"
 )
 
 // IE Type definitions.

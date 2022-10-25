@@ -5,7 +5,7 @@
 package ie
 
 import (
-	"github.com/wmnsk/go-pfcp/internal/utils"
+	"github.com/tim-ywliu/go-pfcp/internal/utils"
 )
 
 // NewAPNDNN creates a new APNDNN IE.

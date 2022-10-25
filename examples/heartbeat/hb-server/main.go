@@ -14,14 +14,12 @@ import (
 	"net"
 	"time"
 
-	"github.com/wmnsk/go-pfcp/ie"
-	"github.com/wmnsk/go-pfcp/message"
+	"github.com/tim-ywliu/go-pfcp/ie"
+	"github.com/tim-ywliu/go-pfcp/message"
 )
 
 func main() {
-	var (
-		listen = flag.String("s", "127.0.0.2:8805", "addr/port to listen on")
-	)
+	listen := flag.String("s", "127.0.0.2:8805", "addr/port to listen on")
 	flag.Parse()
 
 	laddr, err := net.ResolveUDPAddr("udp", *listen)
