@@ -13,7 +13,7 @@ func NewReportingTriggers(triggersOctets ...uint8) *IE {
 	return New(ReportingTriggers, triggersOctets)
 }
 
-// ReportingTriggers returns ReportingTriggers in uint16 if the type of IE matches.
+// ReportingTriggers returns ReportingTriggers in []byte if the type of IE matches.
 func (i *IE) ReportingTriggers() ([]byte, error) {
 	if len(i.Payload) < 2 {
 		return nil, io.ErrUnexpectedEOF
